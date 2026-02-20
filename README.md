@@ -1,8 +1,6 @@
 # Lemax Hotel Search Skeleton
 
-[![CI](https://github.com/<OWNER>/Lemax/actions/workflows/dotnet.yml/badge.svg)](https://github.com/<OWNER>/Lemax/actions/workflows/dotnet.yml)
-
-Replace `<OWNER>` with your GitHub username or organization.
+[![CI](https://github.com/Ryukote/Lemax/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Ryukote/Lemax/actions/workflows/dotnet.yml)
 
 Solution with project separation:
 
