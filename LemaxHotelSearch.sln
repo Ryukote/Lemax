@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemax.HotelSearch.Api", "src\Lemax.HotelSearch.Api\Lemax.HotelSearch.Api.csproj", "{A7EF7B45-3971-43F8-89B2-8FCF408B6AF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemax.HotelSearch.Domain", "src\Lemax.HotelSearch.Domain\Lemax.HotelSearch.Domain.csproj", "{40BC942B-C670-469F-BDFE-43E213740B07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemax.HotelSearch.Service", "src\Lemax.HotelSearch.Service\Lemax.HotelSearch.Service.csproj", "{6AFC9692-657E-4FF8-A7D8-7BA87934C04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemax.HotelSearch.Infrastructure", "src\Lemax.HotelSearch.Infrastructure\Lemax.HotelSearch.Infrastructure.csproj", "{A6D3F62F-5B2D-4E26-B499-4A7A70426E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemax.HotelSearch.Test", "tests\Lemax.HotelSearch.Test\Lemax.HotelSearch.Test.csproj", "{4807A5CF-17F1-44BB-A1D2-4A2DFBE41C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7EF7B45-3971-43F8-89B2-8FCF408B6AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EF7B45-3971-43F8-89B2-8FCF408B6AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EF7B45-3971-43F8-89B2-8FCF408B6AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EF7B45-3971-43F8-89B2-8FCF408B6AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40BC942B-C670-469F-BDFE-43E213740B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40BC942B-C670-469F-BDFE-43E213740B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40BC942B-C670-469F-BDFE-43E213740B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40BC942B-C670-469F-BDFE-43E213740B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFC9692-657E-4FF8-A7D8-7BA87934C04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFC9692-657E-4FF8-A7D8-7BA87934C04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFC9692-657E-4FF8-A7D8-7BA87934C04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFC9692-657E-4FF8-A7D8-7BA87934C04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D3F62F-5B2D-4E26-B499-4A7A70426E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D3F62F-5B2D-4E26-B499-4A7A70426E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D3F62F-5B2D-4E26-B499-4A7A70426E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D3F62F-5B2D-4E26-B499-4A7A70426E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4807A5CF-17F1-44BB-A1D2-4A2DFBE41C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4807A5CF-17F1-44BB-A1D2-4A2DFBE41C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4807A5CF-17F1-44BB-A1D2-4A2DFBE41C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4807A5CF-17F1-44BB-A1D2-4A2DFBE41C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
