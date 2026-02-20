@@ -1,5 +1,9 @@
 # Lemax Hotel Search Skeleton
 
+[![CI](https://github.com/<OWNER>/Lemax/actions/workflows/dotnet.yml/badge.svg)](https://github.com/<OWNER>/Lemax/actions/workflows/dotnet.yml)
+
+Replace `<OWNER>` with your GitHub username or organization.
+
 Solution with project separation:
 
 - `src/Lemax.HotelSearch.Api` - ASP.NET Core Web API (controllers, Swagger, validation)
