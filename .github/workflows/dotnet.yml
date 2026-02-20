@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build ./LemaxHotelSearch.sln -c Release --no-restore
     - name: Test
-      run: dotnet test ./tests/Lemax.HotelSearch.Test/Lemax.HotelSearch.Test.csproj --no-build -c Release --verbosity normal
+      run: dotnet test ./LemaxHotelSearch.sln -c Release --no-restore --verbosity normal
